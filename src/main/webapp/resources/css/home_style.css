@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+body {
+	margin: 0;
+	background: linear-gradient(45deg, #fa975a, #3083f0);
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+h1{
+	position:absolute;
+	font-size: 70px;
+	font-weight: 200;
+	top: 30%;
+	left: 33%;
+}
+
+
+input[type = button]{
+	position: absolute;
+	top: 60%;
+	left: 42%;
+	appearance: none;
+	outline: 0;
+	background-color: rgba(255,255,255,0.1);
+	border: 2px solid white;
+	padding: 18px 30px 18px 30px;
+	color: white;
+	border-radius: 23px;
+	width: 250px;
+	cursor: pointer;
+	font-size: 18px;
+	transition-duration: 0.25s;
+}
+
+input[type = button]:hover{
+	background-color: rgba(255,255,255,0.3);
+}
+
+
